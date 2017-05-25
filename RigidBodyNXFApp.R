@@ -112,3 +112,11 @@ DTplot <- DT %>% gather(key, value, -t)
 g <- ggplot(DTplot, mapping = aes(x = t, y = value, color = key)) 
 g <-  g + geom_line()
 print(g)
+
+# .scatter plot matrix. pair plot
+pairs(~t+y1+y2+y3,data=DT)
+
+
+library(car)
+scatterplotMatrix(~t+y2+y2+y3, data=DT,
+                   main="Rigid Body - No external forces")
