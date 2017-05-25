@@ -1,3 +1,6 @@
+#
+# RigidBodyNXFApp.R
+#
 # example of a nonstiff system is the system of equations describing
 # the motion of a rigid body without external forces.
 
@@ -53,9 +56,9 @@ RigidBodyNXFApp <- function(verbose = FALSE) {
     
     # load the R class that sets up the solver for this application
     
-    y1 <- 0   # initial y position
-    y2 <- 1    # initial x position
-    y3 <- 1    # initial x position
+    y1 <- 0   # initial y1 value
+    y2 <- 1    # initial y2 value
+    y3 <- 1    # initial y3 value
     dt        <- 0.01 # delta time for step
     
     

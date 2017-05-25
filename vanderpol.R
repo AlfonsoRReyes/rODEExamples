@@ -1,6 +1,7 @@
+# ***********
+# VanderPol.R
 # This code can also be found in the `examples` folder under this name:
 #
-# VanderPol.R
 #
 
 

@@ -1,3 +1,5 @@
+# *************************
+#
 # VanderpolMuTimeControl.R
 #
 # This is a modification of the original Vanderpol.R script

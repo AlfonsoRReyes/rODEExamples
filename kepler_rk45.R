@@ -2,7 +2,7 @@
 #
 # Kepler.R
 #
-
+library(rODE)
 
 setClass("Kepler", slots = c(
     GM = "numeric"
