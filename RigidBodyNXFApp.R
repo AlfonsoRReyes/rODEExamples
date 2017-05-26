@@ -3,6 +3,7 @@
 #
 # example of a nonstiff system is the system of equations describing
 # the motion of a rigid body without external forces.
+library(rODE)
 
 setClass("RigidBodyNXF", slots = c(
     g = "numeric"
