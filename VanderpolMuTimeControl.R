@@ -5,7 +5,7 @@
 # This is a modification of the original Vanderpol.R script
 # In this version, we will add tha ability of setting mu and time lapse
 #
-
+library(rODE)
 
 setClass("VanderPol", slots = c(
     mu = "numeric"
